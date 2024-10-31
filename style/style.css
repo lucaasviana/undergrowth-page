@@ -1,0 +1,79 @@
+* {
+  color: white;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover{
+  color: #56faa3;
+  transition: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+body {
+  background-color: rgb(39, 12, 46);
+}
+
+.img-cards {
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+hr {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.codegena {
+  text-align: center;
+}
+
+.input{
+  color: black;
+  letter-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input:focus~.labelInput,
+.input:valid~.labelInput,
+textarea:focus~.labelInput,
+textarea:valid~.labelInput {
+  top: -25px;
+  font-size: 18px;
+  color: #56faa3;
+}
+
+.labelInput {
+  font-size: 18px;
+  color: black;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  pointer-events: none;
+  transition: .5s;
+}
+
+textarea {
+  resize: none;
+  height: 150%;
+  font-size: 15px;
+  width: 100%;
+  color: black;
+  outline: none;
+  border-radius: 5px;
+}
+
+.card{
+  background-color: rgb(35, 63, 114);
+}
